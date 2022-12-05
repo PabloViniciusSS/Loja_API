@@ -1,0 +1,36 @@
+{
+  "name": "Loja_API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "guid": "^0.0.12",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "bin": {
+    "Loja_API": "bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloViniciusSS/MinhaLista.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PabloViniciusSS/MinhaLista/issues"
+  },
+  "homepage": "https://github.com/PabloViniciusSS/MinhaLista#readme",
+  "description": ""
+}
